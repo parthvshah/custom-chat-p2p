@@ -1,0 +1,17 @@
+{
+  "name": "custom-chat-p2p",
+  "version": "1.0.0",
+  "description": "A Peer-To-Peer chat application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "https://github.com/parthvshah",
+  "license": "ISC",
+  "dependencies": {
+    "dat-swarm-defaults": "^1.0.2",
+    "discovery-swarm": "^6.1.0",
+    "get-port": "^5.1.1",
+    "portfinder": "^1.0.25"
+  }
+}
